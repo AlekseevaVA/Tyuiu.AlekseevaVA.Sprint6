@@ -77,6 +77,8 @@
             // 
             // buttonDone_AVA
             // 
+            buttonDone_AVA.Enabled = false;
+            buttonDone_AVA.FlatStyle = FlatStyle.Flat;
             buttonDone_AVA.Image = (Image)resources.GetObject("buttonDone_AVA.Image");
             buttonDone_AVA.Location = new Point(122, 12);
             buttonDone_AVA.Name = "buttonDone_AVA";
@@ -88,6 +90,7 @@
             // 
             // buttonOpenFile_AVA
             // 
+            buttonOpenFile_AVA.FlatStyle = FlatStyle.Flat;
             buttonOpenFile_AVA.Image = (Image)resources.GetObject("buttonOpenFile_AVA.Image");
             buttonOpenFile_AVA.Location = new Point(12, 12);
             buttonOpenFile_AVA.Name = "buttonOpenFile_AVA";
